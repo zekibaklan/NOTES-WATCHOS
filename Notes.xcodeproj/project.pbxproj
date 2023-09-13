@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B0C3D4C2AB24A12000C0F6A /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C3D4B2AB24A12000C0F6A /* CreditsView.swift */; };
 		5B0C3D4F2AB24F51000C0F6A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C3D4E2AB24F51000C0F6A /* HeaderView.swift */; };
+		5B0C3D512AB257FC000C0F6A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C3D502AB257FC000C0F6A /* SettingsView.swift */; };
 		5B5D16E82AB1E99F009FFEA9 /* Notes Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5B5D16E72AB1E99F009FFEA9 /* Notes Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5B5D16ED2AB1E99F009FFEA9 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D16EC2AB1E99F009FFEA9 /* NotesApp.swift */; };
 		5B5D16EF2AB1E99F009FFEA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D16EE2AB1E99F009FFEA9 /* ContentView.swift */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		5B0C3D4B2AB24A12000C0F6A /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		5B0C3D4E2AB24F51000C0F6A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5B0C3D502AB257FC000C0F6A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5B5D16E12AB1E99F009FFEA9 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5D16E72AB1E99F009FFEA9 /* Notes Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5D16EC2AB1E99F009FFEA9 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		5B5D16EB2AB1E99F009FFEA9 /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				5B0C3D4D2AB24F3F000C0F6A /* Component */,
 				5B5D17002AB1F8BA009FFEA9 /* Model */,
 				5B5D16FE2AB1F89A009FFEA9 /* View */,
 				5B5D16F02AB1E9A0009FFEA9 /* Assets.xcassets */,
@@ -113,10 +116,10 @@
 		5B5D16FE2AB1F89A009FFEA9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5B0C3D4D2AB24F3F000C0F6A /* Component */,
 				5B5D16EE2AB1E99F009FFEA9 /* ContentView.swift */,
 				5B5D17032AB2366C009FFEA9 /* DetailView.swift */,
 				5B0C3D4B2AB24A12000C0F6A /* CreditsView.swift */,
+				5B0C3D502AB257FC000C0F6A /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0C3D512AB257FC000C0F6A /* SettingsView.swift in Sources */,
 				5B5D16EF2AB1E99F009FFEA9 /* ContentView.swift in Sources */,
 				5B0C3D4F2AB24F51000C0F6A /* HeaderView.swift in Sources */,
 				5B5D17042AB2366C009FFEA9 /* DetailView.swift in Sources */,
