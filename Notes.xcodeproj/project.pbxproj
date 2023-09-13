@@ -78,8 +78,8 @@
 		5B5D16EB2AB1E99F009FFEA9 /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				5B5D16EC2AB1E99F009FFEA9 /* NotesApp.swift */,
-				5B5D16EE2AB1E99F009FFEA9 /* ContentView.swift */,
+				5B5D17002AB1F8BA009FFEA9 /* Model */,
+				5B5D16FE2AB1F89A009FFEA9 /* View */,
 				5B5D16F02AB1E9A0009FFEA9 /* Assets.xcassets */,
 				5B5D16F22AB1E9A0009FFEA9 /* Preview Content */,
 			);
@@ -92,6 +92,22 @@
 				5B5D16F32AB1E9A0009FFEA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B5D16FE2AB1F89A009FFEA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D16EE2AB1E99F009FFEA9 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B5D17002AB1F8BA009FFEA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D16EC2AB1E99F009FFEA9 /* NotesApp.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
